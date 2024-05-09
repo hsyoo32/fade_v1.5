@@ -1,12 +1,19 @@
 # FADE_v1.5
-The repository is the implementation Version 1.5 of FADE: FAir Dynamic rEcommender
+The repository is the implementation of **Version 1.5** of FADE (FAir Dynamic rEcommender) proposed in the paper titled "Ensuring User-side Fairness in Dynamic Recommender Systems" (WWW'24): https://doi.org/10.1145/3589334.3645536.
+
+**NOTE: For exact replication, one may refer to the original repository: https://github.com/hsyoo32/fade. However, for future works, consider using higher versions for their advantages.**
 
 ## Key update in Version 1.5
 * Flexible use of Dataloader during training with each data block, instead of using saved mini-batches on disk.
-* Note: Thus, the test results may vary slightly from those presented in the paper.
+
+**Note:** Thus, the test results may vary slightly from those presented in the paper.
 
 
-The Online Appendix is available at: https://sites.google.com/view/fade-www24/home.
+Full arXiv paper (including full Appendix): https://arxiv.org/pdf/2308.15651.
+
+The Online Appendix: https://sites.google.com/view/fade-www24/home.
+
+The offical code DOI: https://doi.org/10.5281/zenodo.10669096.
 
 ## Requirements
 - python 37
