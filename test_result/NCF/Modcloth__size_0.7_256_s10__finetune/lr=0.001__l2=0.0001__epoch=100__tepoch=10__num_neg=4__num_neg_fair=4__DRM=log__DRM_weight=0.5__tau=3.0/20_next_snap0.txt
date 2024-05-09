@@ -1,0 +1,9 @@
+Top 20 Results
+ndcg1__overall	0.2158
+ndcg1__body-shape	-0.0008
+ndcg1__0	0.2157
+ndcg1__1	0.2164
+f1__overall	0.0598
+f1__body-shape	0.0137
+f1__0	0.0624
+f1__1	0.0487
